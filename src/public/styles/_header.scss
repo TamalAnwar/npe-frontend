@@ -1,0 +1,38 @@
+/* Header section  */
+/* Putting the 2 elements, logo and text side by side  */
+.header-inner {
+  display: grid;
+  grid-template-columns: 180px auto;
+}
+
+.header {
+  @extend %dark-background;
+}
+
+/* Sizing the logo image  */
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+/* Menu styles */
+#menu {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+#menu a {
+  // margin: 1rem;
+  padding: 0 1rem;
+  border-right: 1px solid $altColor;
+  color: $altColor;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+#menu a:last-child {
+  border: 0;
+}

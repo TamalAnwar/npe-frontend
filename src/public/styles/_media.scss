@@ -1,0 +1,17 @@
+/* Responsive Styles  */
+
+/* Break point set to 800px  */
+@media (max-width: 800px) {
+  /* Setting the top header in center  */
+  .header-inner {
+    grid-template-columns: auto;
+    text-align: center;
+  }
+
+  /* Reducing the paddings  */
+  .header,
+  .content,
+  .footer {
+    padding: 10px;
+  }
+}
